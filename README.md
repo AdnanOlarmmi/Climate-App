@@ -74,7 +74,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[![image](https://user-images.githubusercontent.com/68030297/204081145-295856bf-e866-415f-b2d7-42a6501ee0d3.png)](https://adnanclimateapp.netlify.app/)
+[![image]](./preview.gif)
 
 - [Experince a live demo](https://adnanclimateapp.netlify.app/)
 
