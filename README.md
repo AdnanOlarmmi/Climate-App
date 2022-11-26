@@ -59,12 +59,13 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Climate App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Climate App]** is a...
+**[Climate App]** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- HTML5
+- CSS3
+- REACT
+- REDUX
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
