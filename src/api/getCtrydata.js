@@ -6,7 +6,7 @@ const getCtrydata = async (lat, lon) => {
     const data = await response.json();
     return data;
   } catch (error) {
-   return error;
+    return error;
   }
 };
 

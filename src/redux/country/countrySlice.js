@@ -30,7 +30,9 @@ const countrySlice = createSlice({
   initialState,
   extraReducers: (builder) => {
     builder.addCase(countriesInfo.fulfilled, (state, action) => {
+      // eslint-disable-next-line no-param-reassign
       state.status = 'succeeded';
+      // eslint-disable-next-line no-param-reassign
       state.countrydata = action.payload;
     });
   },

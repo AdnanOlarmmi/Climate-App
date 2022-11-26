@@ -16,14 +16,20 @@ const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(countriesInfo());
-  }, []);
+  });
 
   return (
     <Router>
-      <Header/>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage countriesdata={countriesdata} />} />
-        {countriesdata.map((countrydata) => (<Route key={countrydata.id} path={countrydata.ctryinfo.ctryname} element={<DetailsPage details={countrydata} />} />))}
+        {countriesdata.map((countrydata) => (
+          <Route
+            key={countrydata.id}
+            path={countrydata.ctryinfo.ctryname}
+            element={<DetailsPage details={countrydata} />}
+          />
+        ))}
       </Routes>
     </Router>
   );

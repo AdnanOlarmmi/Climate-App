@@ -20,10 +20,10 @@ const HomePage = ({ countriesdata }) => {
   };
 
   return (
-    <main className='homepage flex-row'>
-      {countriesdata&&countriesdata.map((countrydata) => (
-        <Link className='homepage__item' to={countrydata.ctryinfo.ctryname} key={countrydata.id}>
-          <div className='countryname'>{countrydata.ctryinfo.ctryname}</div>
+    <main className="homepage flex-row">
+      {countriesdata && countriesdata.map((countrydata) => (
+        <Link className="homepage__item" to={countrydata.ctryinfo.ctryname} key={countrydata.id}>
+          <div className="countryname">{countrydata.ctryinfo.ctryname}</div>
           <div>
             <span>
               Air status:&nbsp;
