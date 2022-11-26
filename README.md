@@ -74,7 +74,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[![image]](./preview.gif)
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./preview.gif) | ![Screenshot2](./preview.gif) |
 
 - [Experince a live demo](https://adnanclimateapp.netlify.app/)
 
