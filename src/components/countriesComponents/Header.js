@@ -6,7 +6,7 @@ const Header = () => {
     <header className='flex-row'>
         <Link title='Home' className='header__home' to='/'>&lt;</Link>
         <form className='flex-row'>
-        <span class="material-symbols-outlined">
+        <span className="material-symbols-outlined">
             search
         </span>
         <input name="name" type="text" placeholder="country" />  
