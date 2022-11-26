@@ -14,8 +14,8 @@ const DetailsPage = ({ details }) => {
   ));
 
   return (
-    <main>
-      <p>{title}</p>
+    <main className='details'>
+      <p className='countryname'>{title}'s Air Index</p>
       <ul>{items.map((item) => (item))}</ul>
     </main>
   );

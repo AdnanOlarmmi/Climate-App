@@ -23,7 +23,7 @@ const HomePage = ({ countriesdata }) => {
     <main className='homepage flex-row'>
       {countriesdata.map((countrydata) => (
         <Link className='homepage__item' to={countrydata.ctryinfo.ctryname} key={countrydata.id}>
-          <div>{countrydata.ctryinfo.ctryname}</div>
+          <div className='countryname'>{countrydata.ctryinfo.ctryname}</div>
           <div>
             <span>
               Air status:&nbsp;
