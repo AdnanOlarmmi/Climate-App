@@ -1,4 +1,4 @@
-const apiKey = '985888d5c6e9bbd16d041ff9e17d1220';
+const apiKey = '5d9725af60ddceb4be982104608e3d00';
 
 const getCtrydata = async (lat, lon) => {
   try {
