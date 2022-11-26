@@ -20,13 +20,13 @@ const HomePage = ({ countriesdata }) => {
   };
 
   return (
-    <div>
+    <main className='homepage flex-row'>
       {countriesdata.map((countrydata) => (
-        <Link to={countrydata.ctryinfo.ctryname} key={countrydata.id}>
+        <Link className='homepage__item' to={countrydata.ctryinfo.ctryname} key={countrydata.id}>
           <div>{countrydata.ctryinfo.ctryname}</div>
           <div>
             <span>
-              Air status:
+              Air status:&nbsp;
               {countrydata.data.main.aqi}
             </span>
             {' '}
@@ -34,7 +34,7 @@ const HomePage = ({ countriesdata }) => {
           </div>
         </Link>
       ))}
-    </div>
+    </main>
   );
 };
 

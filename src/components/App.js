@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-
 import {
   BrowserRouter as Router,
   Routes, Route,
@@ -9,6 +8,7 @@ import {
 import { countriesInfo } from '../redux/country/countrySlice';
 import HomePage from './countriesComponents/HomePage';
 import DetailsPage from './countriesComponents/DetailsPage';
+import Header from './countriesComponents/Header';
 
 const App = () => {
   const countriesdata = useSelector((state) => state.countrydata);
@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <Router>
-
+      <Header/>
       <Routes>
         <Route path="/" element={<HomePage countriesdata={countriesdata} />} />
         {countriesdata.map((countrydata) => (<Route key={countrydata.id} path={countrydata.ctryinfo.ctryname} element={<DetailsPage details={countrydata} />} />))}
