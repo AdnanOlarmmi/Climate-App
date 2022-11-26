@@ -19,6 +19,9 @@ body {
   background-color: #ec4c8a;
   color: #fff;
   padding: 2rem;
+  background-image: url('./africa.png');
+  background-repeat: no-repeat;
+  background-size: 15%;
 }
 
 header {
