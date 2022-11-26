@@ -25,9 +25,11 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -147,6 +149,18 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Enable Search Feature**
+- [ ] **Add deographical map for each country**
+- [ ] **Make the details more graphical(Like Barchart or Histogram)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -173,6 +187,22 @@ I would like to thank:
 - [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website design system that inspired my design.
 - [David Hu](https://www.davidhu.io/) for the loader spinner react components.
 - [OpenWeatherApi](https://openweathermap.org/) for the amazing API.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **Can I Fork it and Imporove on it**
+
+  - Yes, You can. Feel free.
+
+- **Does the API respond always**
+
+  - Not really. Sometimes, there's excessive call to the API, this affects the API call by returning error 429. If such happens, you can check the console for confirmation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
