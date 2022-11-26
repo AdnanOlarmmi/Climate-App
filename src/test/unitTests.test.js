@@ -1,4 +1,4 @@
-import {getCtryAirData, getCtryName} from './../helperfunc/helper'
+import { getCtryAirData, getCtryName } from '../helperfunc/helper';
 
 describe('Unit Tests', () => {
   const storedCtryData = [
@@ -8,14 +8,14 @@ describe('Unit Tests', () => {
       data: {
         main: { aqi: 1 },
         components: {
-            co: 307.08,
-            no: 0,
-            no2: 1.78,
-            o3: 11.09,
-            so2: 0.13,
-            pm2_5: 3.03,
-            pm10: 4.35,
-            nh3: 0.1,
+          co: 307.08,
+          no: 0,
+          no2: 1.78,
+          o3: 11.09,
+          so2: 0.13,
+          pm2_5: 3.03,
+          pm10: 4.35,
+          nh3: 0.1,
         },
         dt: 1669283682,
       },
