@@ -15,11 +15,11 @@ a:active {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: lato, sans-serif;
   line-height: 1.5;
-  color: #333;
-  background-color: #f5f5f5;
-  padding: 1rem 2rem;
+  background-color: #ec4c8a;
+  color: #fff;
+  padding: 2rem;
 }
 
 header {
@@ -54,95 +54,44 @@ ul {
   margin-right: 0.7rem;
 }
 
-.nav {
-  font-size: 1rem;
-  gap: 1rem;
-  color: #1e51dc;
+.homepage {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.nav li {
-  cursor: pointer;
-}
-
-.nav__profile {
-  border-left: 2px solid black;
-  padding-left: 2rem;
-}
-
-.tables {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.tables table {
+.homepage__item {
   width: 100%;
-  max-width: 400px;
-  border-collapse: collapse;
-  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
-thead {
-  font-size: large;
-  font-weight: bold;
+.homepage__item:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
-tr {
-  border: 2px solid #858694;
+.homepage .card .card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
-.rocket__container {
-  gap: 2rem;
-}
-
-.rocket {
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-.rocket__img {
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-}
-
-.rocket__reserve {
+.homepage .card .card-description {
   font-size: 1rem;
-  background-color: #1e51dc;
-  color: #fff;
-  padding: 0.5rem;
-  border: transparent;
-  border-radius: 0.2rem;
-  cursor: pointer;
-  width: fit-content;
+  font-weight: 300;
+  margin-bottom: 1rem;
 }
 
-.rocket__cancel {
-  background-color: #fff;
-  color: #858694;
-  border: 1px solid #858694;
+
+
+@media only screen and (min-width: 768px) {
+  .homepage__item {
+    width: 40%;
+  }
+
 }
 
-.rocket__info {
-  gap: 2rem;
-}
-
-.rocket__description span {
-  background-color: #18a2b8;
-  color: #fff;
-  padding: 0.2rem;
-  border-radius: 0.2rem;
-  margin-right: 0.5rem;
-}
-
-.currentRoute {
-  text-decoration: underline;
-}
-
-.myrocktes ul {
-  border-collapse: collapse;
-}
-
-.myrocktes li {
-  border: 1px solid #858694;
+@media only screen and (min-width: 1200px) {
+  .homepage__item {
+    flex-basis: 30%;
+  }
 }

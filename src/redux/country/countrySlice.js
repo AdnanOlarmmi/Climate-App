@@ -5,15 +5,15 @@ import getCtrydata from '../../api/getCtrydata';
 
 export const countriesInfo = createAsyncThunk(
   'country/getCtrydata', async (_, thunkAPI) => {
-    const calls = [];
+    const details = [];
     const { countries } = thunkAPI.getState();
     countries.forEach((ctry) => {
-      calls.push(getCtryloc(ctry).then(async (ctryinfo) => {
+      details.push(getCtryloc(ctry).then(async (ctryinfo) => {
         const data = await getCtrydata(ctryinfo.lat, ctryinfo.lon);
         return { id: uuidv4(), ctryinfo, data: data.list[0] };
       }));
     });
-    const countrydata = await Promise.all(calls);
+    const countrydata = await Promise.all(details);
     return countrydata;
   },
 );

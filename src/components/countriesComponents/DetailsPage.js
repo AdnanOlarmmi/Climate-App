@@ -14,10 +14,10 @@ const DetailsPage = ({ details }) => {
   ));
 
   return (
-    <div>
+    <main>
       <p>{title}</p>
       <ul>{items.map((item) => (item))}</ul>
-    </div>
+    </main>
   );
 };
 
