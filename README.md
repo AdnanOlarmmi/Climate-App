@@ -59,7 +59,7 @@
 
 ## 📹 Video Description <a name="video-description"></a>
 
-- [Watch me explaining some of the app features](https://www.loom.com/share/905964bd35b548d79425112a403cc198)
+- [Watch me explaining some of the app features](https://www.loom.com/share/905964bd35b548d79425112a403cc198).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,11 +67,11 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Experince a live demo](https://adnanclimateapp.netlify.app/).
+
 > |     | Mobile version                      | Desktop version                      |     |
 > | --- | ----------------------------------- | ------------------------------------ | --- |
 > |     | ![Screenshot1](./preview.gif) | ![Screenshot2](./preview.gif) |
-
-- [Experince a live demo](https://adnanclimateapp.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
