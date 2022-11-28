@@ -33,7 +33,7 @@
 
 # 📖 Climate App <a name="about-project"></a>
 
-**Climate App** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information
+**Climate App** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information.
 
 ## 🛠 Built With <a name="built-with"></a>
 
