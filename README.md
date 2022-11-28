@@ -8,23 +8,21 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [📹 Video Description](#video-description)
   - [🚀 Live Demo](#live-demo)
-  - [🐱‍👤 App Representation](#app-record)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-- [👥 Authors](#authors)
+- [👤 Author](#author)
 - - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -32,17 +30,14 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 Climate App <a name="about-project"></a>
 
-> [Climate App] is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information
+**Climate App** is an environmental-social app, making climate action easy, fun & social - leveraging positive peer pressure to create a movement of action to protect our planet from climate collapse by creating awareness about imminent air information
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Used differently related react libraries to achieve the satisfied UI,Pure CSS for styling, Google icons to insert the app icons, and Redux to manage the app store system.
 
 <details>
   <summary>Client</summary>
@@ -53,8 +48,6 @@
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **Country Air Pollution Info:** Display Respective country air pollution index and other informations.
@@ -64,9 +57,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🐱‍👤 App Representation <a name="app-record"></a>
+## 📹 Video Description <a name="video-description"></a>
 
 - [Watch me explaining some of the app features](https://www.loom.com/share/905964bd35b548d79425112a403cc198)
 
@@ -84,8 +75,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
@@ -93,63 +82,61 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- `node` should be installed in your local machin, [node website](https://nodejs.org/en/download/)
-- Install `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/)
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone git@github.com:adnanolarmmi/climate-app.git
+```
+  git clone https://github.com/AdnanOlarmmi/Climate-App.git
 ```
 
 ### Install
 
-Install this project with:
+To install all dependencies, run:
 
-```sh
-  cd climate-app
+```
   npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+After Cloning this repo to your local machine.
+To get it running on your default browser and local host, run:
 
-```sh
-  npm run start
+```
+  npm start
 ```
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests, run:
 
-```sh
-  npm run test
+```
+  npm test
 ```
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project using, Netlify:
 
-- Netlify
+- I used Netlify to delpoy the project.
+- For more information, check [Netlify](https://www.netlify.com/) website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+## 👤 Author <a name="author"></a>
 
-## 👥 Author <a name="authors"></a>
-
-👤 **Adnan Is-haq**
+👤 **Is-haq, Adnan Olamilekan**
 - GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
 - Twitter: [@AdnanIshaqOla](https://twitter.com/@adnanishaqola)
 - LinkedIn: [Adnan (Olamilekan) Is-haq ](https://www.linkedin.com/in/adnan-is-haq-olamilekan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -161,8 +148,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -171,30 +156,21 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please give it a Start ⭐️.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank:
 - [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the website design system that inspired my design.
-- [David Hu](https://www.davidhu.io/) for the loader spinner react components.
 - [OpenWeatherApi](https://openweathermap.org/) for the amazing API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **Can I Fork it and Imporove on it**
 
@@ -205,8 +181,6 @@ I would like to thank:
   - Not really. Sometimes, there's excessive call to the API, this affects the API call by returning error 429. If such happens, you can check the console for confirmation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
