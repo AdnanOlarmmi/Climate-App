@@ -63,8 +63,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Experince a live demo](https://adnanclimateapp.netlify.app/).
@@ -84,8 +82,9 @@ In order to run this project you need:
 
 - A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
 - An IDE e.g [Visual studio code](https://code.visualstudio.com/).
-- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/)
-- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- A terminal.
 
 ### Setup
 
@@ -140,8 +139,6 @@ You can deploy this project using, Netlify:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **Enable Search Feature**
 - [ ] **Add deographical map for each country**
 - [ ] **Make the details more graphical(Like Barchart or Histogram)**
@@ -174,7 +171,7 @@ I would like to thank:
 
 - **Can I Fork it and Imporove on it**
 
-  - Yes, You can. Feel free.
+  - Yes, You can, feel free.
 
 - **Does the API respond always**
 
