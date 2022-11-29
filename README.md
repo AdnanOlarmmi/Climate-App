@@ -94,6 +94,10 @@ Clone this repository to your desired folder:
   git clone https://github.com/AdnanOlarmmi/Climate-App.git
 ```
 
+- Navigate to the location of the folder in your machine:
+
+you@your-Pc-name:~$ cd Climate-App
+
 ### Install
 
 To install all dependencies, run:
